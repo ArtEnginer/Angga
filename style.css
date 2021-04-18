@@ -441,8 +441,8 @@ input:focus {
   }
 }
 
-.vizew-btn {
-  background-color: #db4437;
+.log-in-btn {
+  background-color: #4240e7;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -458,16 +458,20 @@ input:focus {
   line-height: 50px;
   font-weight: 500;
   text-transform: capitalize;
+  border-radius: 2px;
+
 }
 
-.vizew-btn:hover,
-.vizew-btn:focus {
+.log-in-btn:hover,
+.log-in-btn:focus {
   font-size: 16px;
   font-weight: 500;
   background-color: #0f1112;
   color: #ffffff;
   box-shadow: none;
 }
+
+.registration-area {}
 
 .top-header-area {
   position: relative;

@@ -9,17 +9,19 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Vizew - Blog &amp; Magazine HTML Template</title>
-
+    <title>TEKNIK INFORMATIKA|Universitas Peradaban</title>
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/logo-ti.png">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
 </head>
 
-<body>
+<body class="body">
     <!-- Preloader -->
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="lds-ellipsis">
@@ -40,13 +42,17 @@
                         <!-- Breaking News Widget -->
                         <div class="breaking-news-area d-flex align-items-center">
                             <div class="news-title">
-                                <p>Breaking News:</p>
+
+                                <p>Teknik <span style="color: red; font-weight: 900 ;">Informatika</span></p>
                             </div>
                             <div id="breakingNewsTicker" class="ticker">
                                 <ul>
-                                    <li><a href="single-post.html">10 Things Amazon Echo Can Do</a></li>
-                                    <li><a href="single-post.html">Welcome to Colorlib Family.</a></li>
-                                    <li><a href="single-post.html">Boys 'doing well' after Thai</a></li>
+                                    <li><a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                            elit. Fuga sed vel, cupiditate at minus odio.</a></li>
+                                    <li><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                            elit. Nostrum, placeat?</a></li>
+                                    <li><a href="#">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing.</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -65,11 +71,14 @@
                             <div class="top-search-area">
                                 <form action="index.html" method="post">
                                     <input type="search" name="top-search" id="topSearch" placeholder="Search...">
-                                    <button type="submit" class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    <button type="submit" class="btn"><i class="fa fa-search"
+                                            aria-hidden="true"></i></button>
                                 </form>
                             </div>
                             <!-- Login -->
-                            <a href="login.html" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>
+                            <a href="login.html" class="login-btn active"><i class="fa fa-user"
+                                    aria-hidden="true"></i></a>
+                            <a class="btn-theme"><i class="fa fa-cog" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -85,8 +94,11 @@
                     <nav class="classy-navbar justify-content-between" id="vizewNav">
 
                         <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
-
+                        <div class="nav-brand">
+                            <img src="img/logo-ti.png" alt="Logo Ti" class="img-logo-ti">
+                            <a href="index.html" class="nav-logo"> TEKNIK
+                                INFORMATIKA</a>
+                        </div>
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
                             <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -102,65 +114,18 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="archive-list.html">Archives</a></li>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">Archives</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
                                             <li><a href="index.html">- Home</a></li>
-                                            <li><a href="archive-list.html">- Archive List</a></li>
-                                            <li><a href="archive-grid.html">- Archive Grid</a></li>
-                                            <li><a href="single-post.html">- Single Post</a></li>
-                                            <li><a href="video-post.html">- Single Video Post</a></li>
-                                            <li><a href="contact.html">- Contact</a></li>
-                                            <li><a href="typography.html">- Typography</a></li>
-                                            <li><a href="login.html">- Login</a></li>
+                                            <li><a href="#">- Archive List</a></li>
+                                            <li><a href="#">- Archive Grid</a></li>
+                                            <li><a href="#">- Contact</a></li>
+                                            <li><a href="#">- Login</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Features</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">- Home</a></li>
-                                                <li><a href="archive-list.html">- Archive List</a></li>
-                                                <li><a href="archive-grid.html">- Archive Grid</a></li>
-                                                <li><a href="single-post.html">- Single Post</a></li>
-                                                <li><a href="video-post.html">- Single Video Post</a></li>
-                                                <li><a href="contact.html">- Contact</a></li>
-                                                <li><a href="typography.html">- Typography</a></li>
-                                                <li><a href="login.html">- Login</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">- Home</a></li>
-                                                <li><a href="archive-list.html">- Archive List</a></li>
-                                                <li><a href="archive-grid.html">- Archive Grid</a></li>
-                                                <li><a href="single-post.html">- Single Post</a></li>
-                                                <li><a href="video-post.html">- Single Video Post</a></li>
-                                                <li><a href="contact.html">- Contact</a></li>
-                                                <li><a href="typography.html">- Typography</a></li>
-                                                <li><a href="login.html">- Login</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">- Home</a></li>
-                                                <li><a href="archive-list.html">- Archive List</a></li>
-                                                <li><a href="archive-grid.html">- Archive Grid</a></li>
-                                                <li><a href="single-post.html">- Single Post</a></li>
-                                                <li><a href="video-post.html">- Single Video Post</a></li>
-                                                <li><a href="contact.html">- Contact</a></li>
-                                                <li><a href="typography.html">- Typography</a></li>
-                                                <li><a href="login.html">- Login</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">- Home</a></li>
-                                                <li><a href="archive-list.html">- Archive List</a></li>
-                                                <li><a href="archive-grid.html">- Archive Grid</a></li>
-                                                <li><a href="single-post.html">- Single Post</a></li>
-                                                <li><a href="video-post.html">- Single Video Post</a></li>
-                                                <li><a href="contact.html">- Contact</a></li>
-                                                <li><a href="typography.html">- Typography</a></li>
-                                                <li><a href="login.html">- Login</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -172,22 +137,6 @@
     </header>
     <!-- ##### Header Area End ##### -->
 
-    <!-- ##### Breadcrumb Area Start ##### -->
-    <div class="vizew-breadcrumb">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Login</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Breadcrumb Area End ##### -->
 
     <!-- ##### Login Area Start ##### -->
     <div class="vizew-login-area section-padding-80">
@@ -197,24 +146,29 @@
                     <div class="login-content">
                         <!-- Section Title -->
                         <div class="section-heading">
-                            <h4>Great to have you back!</h4>
+                            <h4>Masuk Akun</h4>
                             <div class="line"></div>
                         </div>
 
                         <form action="index.html" method="post">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email or User Name">
+                                <input type="email" class="form-control" id=""
+                                    placeholder="Masukan Username atau Email">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <input type="password" class="form-control" id="" placeholder="Password">
                             </div>
                             <div class="form-group">
                                 <div class="custom-control custom-checkbox mr-sm-2">
                                     <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
-                                    <label class="custom-control-label" for="customControlAutosizing">Remember me</label>
+                                    <label class="custom-control-label" for="customControlAutosizing">Remember
+                                        me</label>
                                 </div>
                             </div>
-                            <button type="submit" class="btn vizew-btn w-100 mt-30">Login</button>
+                            <button type="submit" class="btn log-in-btn w-100 mt-30">Login</button>
+                            <p style="text-align:center;">Belum Punya Akun Daftar <a href="registrasi.html"
+                                    style="text-decoration: none; color: aliceblue; font-weight: bolder; font-style: italic;">Disini</a>
+                            </p>
                         </form>
                     </div>
                 </div>
@@ -228,15 +182,21 @@
         <div class="container">
             <div class="row">
                 <!-- Footer Widget Area -->
-                <div class="col-12 col-sm-6 col-xl-3">
+                <div class="col-12 col-sm-12 col-xl-4">
                     <div class="footer-widget mb-70">
                         <!-- Logo -->
-                        <a href="index.html" class="foo-logo d-block mb-4"><img src="img/core-img/logo2.png" alt=""></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        <a href="index.html" class=" foo-logo d-block mb-4"><img class="img-logo-ti"
+                                src="img/logo-ti.png" alt="">
+                            <h1 style="display: inline; font-size: x-small;">Teknik Informatika|Universitas Peradaban
+                            </h1>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna</p>
                         <!-- Footer Newsletter Area -->
                         <div class="footer-nl-area">
                             <form action="#" method="post">
-                                <input type="email" name="nl-email" class="form-control" id="nlEmail" placeholder="Your email">
+                                <input type="email" name="nl-email" class="form-control" id="nlEmail"
+                                    placeholder="Your email">
                                 <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                             </form>
                         </div>
@@ -244,87 +204,115 @@
                 </div>
 
                 <!-- Footer Widget Area -->
-                <div class="col-12 col-sm-6 col-xl-3">
+                <div class="col-12 col-sm-12 col-xl-4">
                     <div class="footer-widget mb-70">
-                        <h6 class="widget-title">Latest Twister</h6>
+                        <h6 class="widget-title">Latest Artikel</h6>
                         <!-- Twitter Slides -->
                         <div class="twitter-slides owl-carousel">
 
                             <!-- Single Twitter Slide -->
                             <div class="single--twitter-slide">
                                 <!-- Single Twit -->
-                                <div class="single-twit">
-                                    <p><i class="fa fa-twitter"></i> <span>@Leonard</span> I am so happy because I found this magazine, and it just made Vizeweasier. Thanks for sharing</p>
+                                <div class="row">
+                                    <div class="col col-xl-2">
+                                        <img src="img/gedung2.jpg" class="" alt=""> </div>
+                                    <div class="post-content mt-0 col">
+
+                                        <a href="#" class="post-cata cata-sm cata-primary">Business</a>
+                                        <a href="single-post.html" class="post-title mb-2">Theresa May battles
+                                            Brexiteer
+                                            backlash amid disquiet</a>
+                                        <div class="post-meta d-flex align-items-center mb-2">
+                                            <a href="#" class="post-author">By Jane</a>
+                                            <i class="fa fa-circle" aria-hidden="true"></i>
+                                            <a href="#" class="post-date">Sep 08, 2018</a>
+                                        </div>
+                                        <p class="mb-2">Quisque mollis tristique ante. Proin ligula eros, varius id
+                                            tristique sit amet, rutrum non ligula.</p>
+
+
+                                    </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col col-xl-2">
+                                        <img src="img/gedung2.jpg" class="" alt=""> </div>
+                                    <div class="post-content mt-0 col">
+
+                                        <a href="#" class="post-cata cata-sm cata-primary">Business</a>
+                                        <a href="single-post.html" class="post-title mb-2">Theresa May battles
+                                            Brexiteer
+                                            backlash amid disquiet</a>
+                                        <div class="post-meta d-flex align-items-center mb-2">
+                                            <a href="#" class="post-author">By Jane</a>
+                                            <i class="fa fa-circle" aria-hidden="true"></i>
+                                            <a href="#" class="post-date">Sep 08, 2018</a>
+                                        </div>
+                                        <p class="mb-2">Quisque mollis tristique ante. Proin ligula eros, varius id
+                                            tristique sit amet, rutrum non ligula.</p>
+
+
+                                    </div>
+                                </div>
+
                                 <!-- Single Twit -->
-                                <div class="single-twit">
-                                    <p><i class="fa fa-twitter"></i> <span>@Leonard</span> I am so happy because I found this magazine, and it just made Vizeweasier. Thanks for sharing</p>
-                                </div>
                             </div>
 
                             <!-- Single Twitter Slide -->
                             <div class="single--twitter-slide">
-                                <!-- Single Twit -->
-                                <div class="single-twit">
-                                    <p><i class="fa fa-twitter"></i> <span>@Colorlib</span> I am so happy because I found this magazine, and it just made Vizeweasier. Thanks for sharing</p>
+                                <div class="row">
+                                    <div class="col col-xl-2">
+                                        <img src="img/gedung2.jpg" class="" alt=""> </div>
+                                    <div class="post-content mt-0 col">
+
+                                        <a href="#" class="post-cata cata-sm cata-primary">Business</a>
+                                        <a href="single-post.html" class="post-title mb-2">Theresa May battles
+                                            Brexiteer
+                                            backlash amid disquiet</a>
+                                        <div class="post-meta d-flex align-items-center mb-2">
+                                            <a href="#" class="post-author">By Jane</a>
+                                            <i class="fa fa-circle" aria-hidden="true"></i>
+                                            <a href="#" class="post-date">Sep 08, 2018</a>
+                                        </div>
+                                        <p class="mb-2">Quisque mollis tristique ante. Proin ligula eros, varius id
+                                            tristique sit amet, rutrum non ligula.</p>
+
+
+                                    </div>
                                 </div>
-                                <!-- Single Twit -->
-                                <div class="single-twit">
-                                    <p><i class="fa fa-twitter"></i> <span>@Colorlib</span> I am so happy because I found this magazine, and it just made Vizeweasier. Thanks for sharing</p>
+                                <div class="row">
+                                    <div class="col col-xl-2">
+                                        <img src="img/gedung2.jpg" class="" alt=""> </div>
+                                    <div class="post-content mt-0 col">
+
+                                        <a href="#" class="post-cata cata-sm cata-primary">Business</a>
+                                        <a href="single-post.html" class="post-title mb-2">Theresa May battles
+                                            Brexiteer
+                                            backlash amid disquiet</a>
+                                        <div class="post-meta d-flex align-items-center mb-2">
+                                            <a href="#" class="post-author">By Jane</a>
+                                            <i class="fa fa-circle" aria-hidden="true"></i>
+                                            <a href="#" class="post-date">Sep 08, 2018</a>
+                                        </div>
+                                        <p class="mb-2">Quisque mollis tristique ante. Proin ligula eros, varius id
+                                            tristique sit amet, rutrum non ligula.</p>
+
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
 
                 <!-- Footer Widget Area -->
-                <div class="col-12 col-sm-6 col-xl-3">
+                <div class="col-12 col-sm-6 col-xl-4">
                     <div class="footer-widget mb-70">
-                        <h6 class="widget-title">Sport Videos</h6>
-
-                        <!-- Single Blog Post -->
-                        <div class="single-blog-post d-flex">
-                            <div class="post-thumbnail">
-                                <img src="img/bg-img/1.jpg" alt="">
-                            </div>
-                            <div class="post-content">
-                                <a href="single-post.html" class="post-title">DC Shoes: gymkhana the</a>
-                                <div class="post-meta d-flex justify-content-between">
-                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
-                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
-                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Blog Post -->
-                        <div class="single-blog-post d-flex">
-                            <div class="post-thumbnail">
-                                <img src="img/bg-img/2.jpg" alt="">
-                            </div>
-                            <div class="post-content">
-                                <a href="single-post.html" class="post-title">Sweet Yummy Chocolatea Tea</a>
-                                <div class="post-meta d-flex justify-content-between">
-                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
-                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
-                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-sm-6 col-xl-3">
-                    <div class="footer-widget mb-70">
-                        <h6 class="widget-title">Our Address</h6>
+                        <h6 class="widget-title">ALAMAT</h6>
                         <!-- Contact Address -->
                         <div class="contact-address">
-                            <p>101 E 129th St, East Chicago, <br>IN 46312, US</p>
-                            <p>Phone: 001-1234-88888</p>
-                            <p>Email: info.colorlib@gmail.com</p>
+                            <p> Jl. Raya Pagojengan Km.3 Paguyangan
+                                Brebes - Jawa Tengah</p>
+                            <p>Phone: 0289-432032</p>
+                            <p>Email: admin@peradaban.ac.id</p>
                         </div>
                         <!-- Footer Social Area -->
                         <div class="footer-social-area">
@@ -345,9 +333,16 @@
                 <div class="row align-items-center">
                     <!-- Copywrite Text -->
                     <div class="col-12 col-sm-6">
-                        <p class="copywrite-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        <p class="copywrite-text">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+                            Copyright @HMJTI &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> <br>TemplateBy<i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
                     </div>
                     <div class="col-12 col-sm-6">
                         <nav class="footer-nav">
@@ -364,11 +359,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </div>
     </footer>
+
     <!-- ##### Footer Area End ##### -->
 
     <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+
     <!-- Popper js -->
     <script src="js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
@@ -377,6 +372,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/plugins/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $(".btn-theme").click(function () {
+                $(".body").removeClass("body").addClass("change-body");
+                $(".btn-theme").click(function () {
+                    $(".change-body").removeClass("change-body").addClass("body");
+                })
+            })
+        });
+    </script>
 </body>
 
 </html>
